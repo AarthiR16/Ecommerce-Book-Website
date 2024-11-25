@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="EBook.css">
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNN6zXQbNTO3jYRt-_IUI6CApA0HRvuCXFxA&s" >
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <style>
+             .register
+             {
+                padding: 50px 50px;
+                background-color: rgb(209, 218, 226);
+                margin: 100px 400px;
+                color: black;
+                border-radius: 5px;
+                box-shadow: 1px 1px 5px grey;
+
+             }
+          
+             .input{
+                width: 350px;
+                padding-left: 15px;
+                height: 30px;
+                padding: 20px 20px;
+                margin: 5px 10px;
+                border: hidden;
+                box-shadow: 1px 1px 5px grey;
+                border-radius: 3px;
+                margin-bottom: 10PX;
+
+             }
+             label{
+                font-size: 1rem;
+                margin-top:5px ;
+             }
+             
+             .Login {
+                text-decoration: none;
+                border: hidden;
+                border-radius: 5px;
+                box-shadow: 1px 1px 5px grey;
+                background-color:rgb(76, 215, 76);
+                color: white;
+                padding: 10px 100px;
+                margin: 2px 50px;
+    
+             }
+             p{
+                padding: 4px 8px 2px 8px;
+             }
+             .register .last{
+                padding-top: 10px;
+             }
+
+             .register .a2{
+                text-decoration: none;
+                color: blue;
+             }
+             .register .a2:hover{
+                color: red;
+
+             }
+           
+        </style>
+
+
+    </head>
+    <body>
+        <section>
+            <div class="header">
+                 <div class="Navibar1" >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNN6zXQbNTO3jYRt-_IUI6CApA0HRvuCXFxA&s" alt="BOOK" width="60px">
+                     <h1>Bookish</h1>
+                 </div>
+                 <div  class="Navibar2">
+                     <input type="search" class="nav" placeholder="Search" >
+                     <a href="Books.html"><input type="button" class="navbtn" value="Search"></a>
+                 </div>
+                 <div class="Navibar2" >
+                      <div class="log">
+                        <a href="login.html"> <input type="button" value="Login" class="navbtn" ></a>
+                       </div>
+                       <div class="log">
+                        <a href="Register.html"><input type="button" value="Register" class="navbtn" style="background-color: rgb(76, 215, 76); color: white;"></a>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <form  class="register">
+                <h2>Login <i class='bx bxs-user' ></i></h2>
+                
+                <label for="name">UserName</label><br>
+                <input type="email" id="name" placeholder="Enter Your Name or Email" class="input"><br>
+                <label for="Password">Password</label><br>
+                <input type="password" id="password" placeholder="Enter Your Password" class="input"><br>
+                <p> <input type="checkbox" > Remember Me </p><br>
+                <a href="EBook.html" target="_parent" class="Login"> Login </a>
+                <p class="last">Don't have an account ? <a href="Register.html" class="a2"> Create an account</a></p>
+                
+            </form>
+        </section>
+    </body>
+</html>

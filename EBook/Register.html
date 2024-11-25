@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="EBook.css">
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8E0bprpt4j7dsY3R5c4TH0zcq13J5qTHbiA&s" >
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+       <style>
+           .register2
+             {
+                padding: 50px 50px;
+                background-color: rgb(209, 218, 226);
+                margin: 100px 400px;
+                color: black;
+                border-radius: 5px;
+                box-shadow: 1px 1px 5px grey;
+             }
+             .input{
+                width: 350px;
+                padding-left: 15px;
+                height: 30px;
+                padding: 20px 20px;
+                margin: 5px 10px;
+                border: hidden;
+                box-shadow: 1px 1px 5px grey;
+                border-radius: 3px;
+
+             }
+             label{
+                font-size: 1rem;
+                margin-top:5px ;
+                cursor: pointer;
+             }
+             .register {
+                text-decoration: none;
+                border: hidden;
+                border-radius: 5px;
+                box-shadow: 1px 1px 5px grey;
+                background-color:rgb(76, 215, 76);
+                color: white;
+                padding: 10px 100px;
+                margin: 5px 50px;
+    
+             }
+             .register2 p{
+                padding: 10px 5px;
+             }
+            .register2 .a2{
+                text-decoration: none;
+                color: blue;
+                
+             }
+             .register2 .a2:hover{
+                color: red;
+
+             }
+             .register2 .last{
+                padding-top: 10px;
+             }
+           
+          
+       </style>
+
+    </head>
+    <body>
+        <section>
+            <div class="header">
+                 <div class="Navibar1" >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNN6zXQbNTO3jYRt-_IUI6CApA0HRvuCXFxA&s" alt="BOOK" width="60px">
+                     <h1>Bookish</h1>
+                 </div>
+                 <div  class="Navibar2">
+                     <input type="search" class="nav" placeholder="Search" >
+                     <a href="Books.html"><input type="button" class="navbtn" value="Search"></a>
+                 </div>
+                 <div class="Navibar2" >
+                      <div class="log">
+                        <a href="login.html"><input type="button" value="Login" class="navbtn" ></a>
+                       </div>
+                       <div class="log">
+                        <a href="Register.html"><input type="button" value="Register" class="navbtn" style="background-color: rgb(76, 215, 76); color: white;"></a>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="Register2">
+                <form >
+                    <h2>Register <i class='bx bxs-user-account bx-flip-horizontal' ></i></h2>
+                    <label for="name">Username</label><br>
+                    <input type="text" id="name" name="Username" placeholder="Enter Your Name" class="input" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="Email"  placeholder="Enter your Email" class="input" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="Password" id="password" placeholder="Enter your Password" class="input" required><br>
+                    <p><input type="checkbox" > <a class="a2" href="">Agree to terms & conditions</a></p>
+                    <a href="EBook.html" target="_parent" class="register"> Register</a>
+                    <p class="last">Already have an account ! <a href="login.html" class="a2"> Login</a></p>
+
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

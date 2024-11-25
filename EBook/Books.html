@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Bookish-Books</title>
+        <link rel="stylesheet" href="EBook.css">
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNN6zXQbNTO3jYRt-_IUI6CApA0HRvuCXFxA&s" >
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+       <style>
+        .mySlides {
+              display:none;
+                 }
+       </style>
+
+    </head>
+    <body>
+        <section>
+            <div class="header">
+                 <div class="Navibar1" >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNN6zXQbNTO3jYRt-_IUI6CApA0HRvuCXFxA&s" alt="BOOK" width="60px">
+                    <h1>Bookish</h1>
+                 </div>
+                 <div  class="Navibar2">
+                     <input type="search" class="nav" placeholder="Search">
+                     <a href="EBook.html"><input type="button" class="navbtn" value="Search"></a>
+                 </div>
+                 <div class="Navibar2" >
+                      <div class="log">
+                        <a href="login.html" target="_parent"><input type="button" value="Login" class="navbtn"></a>
+                       </div>
+                       <div class="log">
+                        <input type="button" value="My Account" class="navbtn" style="background-color: rgb(76, 215, 76); color: white;">
+                      </div>
+                </div>
+            </div>
+        </section>
+     
+        <section>
+            <div class="section">
+                <a href="EBook.html"><h2 class="log2"> <i class='bx bx-home' ></i>   Home</h2></a>
+                 <a href="About.html"><h2 class="log2"> <i class='bx bx-notepad'></i>  About </h2></a>
+                <a href="Books.html" id="booksLink"><h2 class="log2"> <i class='bx bx-book-heart'></i>  Books</h2></a>
+                <a href="Cart.html" id="cartLink"><h2 class="log2"> <i class='bx bxs-cart'></i> Cart</h2></a>
+                <div class="help">
+                    <a href="ContactUs.html">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+
+
+     
+
+        <section>
+        <div class="Book1">
+            <div class="row1" >
+                <div class="slide">
+                <img src="images/preview-1.png" alt="Books" >
+                <img src="images/preview-2.png" alt="Books" class="mySlides">
+                </div>
+            </div>
+            <div class="row1">
+                <h2>Discover Our Story</h2>
+                <p>Cutting cataloguing budgets and support year after year and retirement after retirement is hurting the library in the long run and burning out the staff that remains. We need time and resources to learn the new models and standards at the same time we do our day to day work. This is work that now takes a bit longer to do - but in the long run we are making better records. The new linked data models have the potential for revolutionizing the services and information libraries can provide for their users and keep libraries relevant in an increasingly web-based information environment.</p>
+                <a href="#bookshelf" >Read More</a>
+            </div>
+        </div>
+    </section>
+
+        <main>
+            <div id="bookshelf"> 
+            </div>
+          </main>
+
+
+
+
+       <script src="EBook.js"></script>
+
+        </body>
+</html>
